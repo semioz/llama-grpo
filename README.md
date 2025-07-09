@@ -6,7 +6,7 @@ Trained the model on reasoning tasks from the GSM8K dataset using custom reward 
 ---
 
 - [Unsloth](https://github.com/unslothai/unsloth) for efficient 4-bit LoRA fine-tuning
--  **GRPO** (a reinforcement learning approach)
+-  [GRPO](https://arxiv.org/pdf/2402.03300)
 - [GSM8K](https://huggingface.co/datasets/openai/gsm8k) math reasoning tasks
 - Custom reward functions (XML structure, integer answers, etc.) 
 - vLLM for efficient inference and generation
